@@ -25,11 +25,11 @@ It stores records of people and their owed amounts, then breaks them down into o
   6. Exit  
 
 ## 📊 Example
-Customer: Jane AED 65
-Change:
-AED 50 : 1
-AED 10 : 1
-AED 5 : 1
+- Customer: Jane AED 65
+- Change:
+- AED 50 : 1
+- AED 10 : 1
+- AED 5 : 1
 
 ## 📂 Project Structure
 ChangeC/
