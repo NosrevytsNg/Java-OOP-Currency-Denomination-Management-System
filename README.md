@@ -33,11 +33,11 @@ Customer: Jane AED 65
 
 ## 📂 Project Structure
 ChangeC/
-├── Person.java # Person class – stores name & money, with getters/setters
-├── ChangeC.java # Main program – handles input, validation, denominations & menu
-├── StudentInfo.java # (optional) Prints student details (name, ID, tutor info)
-├── docs/ # External documentation (UML diagrams, algorithms, test results)
-└── README.md # Project summary
+Person.java # Person class – stores name & money, with getters/setters
+ChangeC.java # Main program – handles input, validation, denominations & menu
+StudentInfo.java # (optional) Prints student details (name, ID, tutor info)
+docs/ # External documentation (UML diagrams, algorithms, test results)
+README.md # Project summary
 
 - **Person.java**  
   Encapsulates person details with private variables (`name`, `money`) and accessor/mutator methods.  
