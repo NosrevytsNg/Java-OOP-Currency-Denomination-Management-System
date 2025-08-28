@@ -25,19 +25,23 @@ It stores records of people and their owed amounts, then breaks them down into o
   6. Exit  
 
 ## 📊 Example
+```plaintext
 Customer: Jane AED 65
-- Change:
-- AED 50 : 1
-- AED 10 : 1
-- AED 5 : 1
+Change:
+AED 50 : 1
+AED 10 : 1
+AED 5 : 1
+```
 
 ## 📂 Project Structure
+```plaintext
 ChangeC/
-- Person.java # Person class – stores name & money, with getters/setters
-- ChangeC.java # Main program – handles input, validation, denominations & menu
-- StudentInfo.java # (optional) Prints student details (name, ID, tutor info)
-- docs/ # External documentation (UML diagrams, algorithms, test results)
-- README.md # Project summary
+├── Person.java        # Person class – stores name & money, with getters/setters
+├── ChangeC.java       # Main program – handles input, validation, denominations & menu
+├── StudentInfo.java   # (optional) Prints student details (name, ID, tutor info)
+├── docs/              # External documentation (UML diagrams, algorithms, test results)
+└── README.md          # Project summary
+```
 
 - **Person.java**  
   Encapsulates person details with private variables (`name`, `money`) and accessor/mutator methods.  
