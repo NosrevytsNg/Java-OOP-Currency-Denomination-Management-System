@@ -1,36 +1,9 @@
 # 💰 Java-OOP-Currency-Denomination-Management-System
 
-## 📌 Overview
-Java-based program (ICT167 Assignment 1, 2024) applying **Object-Oriented Programming (OOP)** to manage and calculate currency change.  
-It stores records of people and their owed amounts, then breaks them down into optimal UAE Dirham denominations.  
-
-
-<p align="center">
-  <img src="https://img.icons8.com/emoji/48/1f4b0.png" width="40" height="40"/>
-</p>
-
-<h2 align="center">💰 Java OOP Currency Denomination Management System</h2>
-
-<p align="center">
-  <i>Java-based program applying Object-Oriented Programming (OOP) to manage and calculate currency change.  
-  It stores records of people and their owed amounts, then breaks them down into optimal UAE Dirham denominations.</i>
-</p>
-
----
 
 <h3>📌 Overview</h3>
-
 Java program that demonstrates **Object-Oriented Programming (OOP)** principles.  
 It manages records of people and their currency amounts, and breaks them down into **optimal AED denominations** using modular, reusable design.
-
----
-
-
-
-
-
-
-
 
 <h3>🛠️ Tech Stack</h3>
 - **Language:** Java (JDK SE, NetBeans 19)  
