@@ -4,15 +4,11 @@
 Java-based program (ICT167 Assignment 1, 2024) applying **Object-Oriented Programming (OOP)** to manage and calculate currency change.  
 It stores records of people and their owed amounts, then breaks them down into optimal UAE Dirham denominations.  
 
----
-
 ## 🛠️ Tech Stack
 - **Language:** Java (JDK SE, NetBeans 19)  
 - **Paradigm:** Object-Oriented Programming  
 - **Concepts:** Encapsulation, Information Hiding, Constructors, Accessors/Mutators, Pre/Post Conditions, Open/Closed Principle  
 - **Data Structure:** Array of `Person` objects  
-
----
 
 ## 🔑 Features
 - ✅ Input validation  
@@ -28,16 +24,12 @@ It stores records of people and their owed amounts, then breaks them down into o
   5. Total sum of all amounts  
   6. Exit  
 
----
-
 ## 📊 Example
 Customer: Jane AED 65
 Change:
 AED 50 : 1
 AED 10 : 1
 AED 5 : 1
-
----
 
 ## 📂 Project Structure
 ChangeC/
@@ -62,15 +54,11 @@ ChangeC/
 - **StudentInfo.java**  
   Outputs author details for tutor verification.  
 
----
-
 ## ⚡ How to Run
 1. Open in **NetBeans 19**  
 2. Set `usePreset = true` (auto test data) or `false` (manual input)  
 3. Compile & run `ChangeC.java`  
 4. Interact via the on-screen menu  
-
----
 
 ## 🔍 Testing Highlights
 - Preset array loads correctly ✅  
