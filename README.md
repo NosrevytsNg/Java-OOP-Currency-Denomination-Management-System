@@ -1,7 +1,4 @@
-# Java-OOP-Currency-Denomination-Management-System
-Java-based program demonstrating OOP principles (encapsulation, information hiding, modularisation) for managing people’s currency amounts and calculating optimal AED denomination breakdowns with menu-driven features.
-
-# 💰 ChangeC – Currency Change System (Java OOP)
+# 💰 Java-OOP-Currency-Denomination-Management-System
 
 ## 📌 Overview
 Java-based program (ICT167 Assignment 1, 2024) applying **Object-Oriented Programming (OOP)** to manage and calculate currency change.  
@@ -40,11 +37,30 @@ AED 50 : 1
 AED 10 : 1
 AED 5 : 1
 
-
 ---
 
-## 📂 Structure
+## 📂 Project Structure
+ChangeC/
+├── Person.java # Person class – stores name & money, with getters/setters
+├── ChangeC.java # Main program – handles input, validation, denominations & menu
+├── StudentInfo.java # (optional) Prints student details (name, ID, tutor info)
+├── docs/ # External documentation (UML diagrams, algorithms, test results)
+└── README.md # Project summary
 
+- **Person.java**  
+  Encapsulates person details with private variables (`name`, `money`) and accessor/mutator methods.  
+
+- **ChangeC.java**  
+  Implements main logic:
+  - `main()` for execution flow  
+  - `getPersonName()` & `getPersonMoney()` for validated input  
+  - `denomination()` for breakdown into AED notes  
+  - `currencyMenu()` for 6 menu-driven options  
+  - `getSample()` for preset hardcoded test data  
+  - `printInfo()` for testing output  
+
+- **StudentInfo.java**  
+  Outputs author details for tutor verification.  
 
 ---
 
