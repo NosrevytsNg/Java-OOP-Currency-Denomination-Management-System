@@ -4,13 +4,41 @@
 Java-based program (ICT167 Assignment 1, 2024) applying **Object-Oriented Programming (OOP)** to manage and calculate currency change.  
 It stores records of people and their owed amounts, then breaks them down into optimal UAE Dirham denominations.  
 
-## 🛠️ Tech Stack
+
+<p align="center">
+  <img src="https://img.icons8.com/emoji/48/1f4b0.png" width="40" height="40"/>
+</p>
+
+<h2 align="center">💰 Java OOP Currency Denomination Management System</h2>
+
+<p align="center">
+  <i>Java-based program applying Object-Oriented Programming (OOP) to manage and calculate currency change.  
+  It stores records of people and their owed amounts, then breaks them down into optimal UAE Dirham denominations.</i>
+</p>
+
+---
+
+<h3>📌 Overview</h3>
+
+Java program that demonstrates **Object-Oriented Programming (OOP)** principles.  
+It manages records of people and their currency amounts, and breaks them down into **optimal AED denominations** using modular, reusable design.
+
+---
+
+
+
+
+
+
+
+
+<h3>🛠️ Tech Stack</h3>
 - **Language:** Java (JDK SE, NetBeans 19)  
 - **Paradigm:** Object-Oriented Programming  
 - **Concepts:** Encapsulation, Information Hiding, Constructors, Accessors/Mutators, Pre/Post Conditions, Open/Closed Principle  
 - **Data Structure:** Array of `Person` objects  
 
-## 🔑 Features
+<h3>🔑 Features</h3>
 - ✅ Input validation  
   - Unique names only  
   - Amounts must be multiples of 5  
@@ -24,7 +52,7 @@ It stores records of people and their owed amounts, then breaks them down into o
   5. Total sum of all amounts  
   6. Exit  
 
-## 📊 Example
+<h3>📊 Example</h3>
 ```plaintext
 Customer: Jane AED 65
 Change:
@@ -33,7 +61,7 @@ AED 10 : 1
 AED 5 : 1
 ```
 
-## 📂 Project Structure
+<h3>📂 Project Structure</h3>
 ```plaintext
 ChangeC/
 ├── Person.java        # Person class – stores name & money, with getters/setters
@@ -58,19 +86,20 @@ ChangeC/
 - **StudentInfo.java**  
   Outputs author details for tutor verification.  
 
-## ⚡ How to Run
+<h3>⚡ How to Run</h3>
 1. Open in **NetBeans 19**  
 2. Set `usePreset = true` (auto test data) or `false` (manual input)  
 3. Compile & run `ChangeC.java`  
 4. Interact via the on-screen menu  
 
-## 🔍 Testing Highlights
+<h3>🔍 Testing Highlights</h3>
 - Preset array loads correctly ✅  
 - Duplicate names detected ✅  
 - Non-multiples of 5 rejected ✅  
 - Menu options 1–5 work as expected ✅  
 - Exit message displayed ✅  
-- **Limitations:**  
+
+<b>Limitations:</b> 
   - “Not Found” handling incomplete  
   - Manual input requires double **Enter** after amount  
   - Fixed array capacity (10)  
