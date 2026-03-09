@@ -83,7 +83,17 @@ ChangeC/
   - Manual input requires double **Enter** after amount  
   - Fixed array capacity (10)  
   
+---
 
+## Author
+
+**Styverson Ng**
+
+Bachelor of Information Technology <br>
+Artificial Intelligence & Autonomous Systems <br>
+Cyber Security & Cyber Forensics <br>
+
+Murdoch University <br>
 
 
 
